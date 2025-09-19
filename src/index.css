@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+.font-geist {
+    font-family: "Geist", "Geist Placeholder", sans-serif;
+  }
+  
+  .font-playfair {
+    font-family: "Playfair Display", "Playfair Display Placeholder", serif;
+  }
+
+ .bg-green {
+   background-color: #177245
+ }
+
+ .text-green {
+    color: #177245;
+ }
