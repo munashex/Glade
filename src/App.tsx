@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <main className="min-h-screen mx-3 md:mx-6 lg:mx-16">
+      <main className="min-h-screen">
         <Routes>
           <Route path="/" element={<Home/>}/>
         </Routes>

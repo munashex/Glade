@@ -3,8 +3,10 @@
 const Home = () => {
 
     return (
-        <div>
-          <h1>home page bro</h1>
+        <div className="">
+        <div className="bg-[url(/HomeImage.png)]  min-h-screen bg-center w-full bg-cover">
+          
+        </div> 
         </div>
     )
 }
