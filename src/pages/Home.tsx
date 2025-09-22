@@ -2,6 +2,7 @@ import { IoMdStar } from "react-icons/io";
 import { FiArrowUpRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import About from "./About";
+import Services from "./Services";
 
 const Home = () => (
     <div style={{scrollBehavior: "smooth"}}>
@@ -33,6 +34,11 @@ const Home = () => (
         <section id="about" className="min-h-screen">
          <About/>
         </section>
+
+        {/* services section  */}
+       <section id="services" className="m-h-screen">
+        <Services/>
+       </section>
 
     </div>
 )

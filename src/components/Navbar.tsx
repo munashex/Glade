@@ -37,6 +37,7 @@ const [openNav, setOpenNav] = useState(false)
 
 const toggleMenu = () => {
     setOpenNav(!openNav)
+    window.scrollTo({behavior})
 }
 
     return (
