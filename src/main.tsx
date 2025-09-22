@@ -5,7 +5,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <div className="font-geist">
+    <div className="font-geist" style={{scrollBehavior: "smooth"}}>
     <App />
     </div>
   </StrictMode>,

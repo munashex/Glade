@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <main className="min-h-screen">
+      <main className="min-h-screen text-black">
         <Routes>
           <Route path="/" element={<Home/>}/>
         </Routes>

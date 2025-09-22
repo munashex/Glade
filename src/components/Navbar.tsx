@@ -56,7 +56,7 @@ const toggleMenu = () => {
             {/* navlinks on sm and md screens */}
              {openNav ? 
              (
-             <div className={`absolute lg:hidden   inset-0 min-h-screen bg-[#1c3125] animate-fade-left`}> 
+             <div className={`absolute z-70 lg:hidden   inset-0 min-h-screen bg-[#1c3125] animate-fade-left`}> 
               {/* logo and close menu section */}
               <div className="flex items-center mx-3 mt-3 md:mx-6 justify-between">
               <Link to="/" onClick={toggleMenu} className="flex items-center gap-3">
