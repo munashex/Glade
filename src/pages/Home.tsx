@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import About from "./About";
 import Services from "./Services";
 import OurWork from "./OurWork";
+import Faq from "./Faq";
 
 const Home = () => (
     <div style={{scrollBehavior: "smooth"}}>
@@ -44,6 +45,10 @@ const Home = () => (
        {/* our work section  */} 
        <section id="ourwork"> 
         <OurWork/>
+       </section> 
+
+       <section id="#faqs">
+       <Faq/>
        </section>
 
     </div>
