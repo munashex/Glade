@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom" 
 import { FiArrowUpRight } from "react-icons/fi"
 import { IoIosArrowDropdown as ArrowDown } from "react-icons/io";
 import { faqsData } from "../data/faqs/data"; 
@@ -15,12 +14,12 @@ const [accordin, setAccordin]  = useState(0)
         <h1 className="text-3xl max-w-sm md:text-4xl lg:text-7xl lg:max-w-2xl  font-playfair font-bold mt-5 lg:mt-7">Answering your questions</h1>
         <h1 className="mt-5 lg:mt-7  text-lg lg:text-2xl md:max-w-2xl lg:max-w-xl">Got more questions? Reach out to us using the button below</h1>
         
-        <Link to="/contact" className="group/item mt-5 lg:mt-7  hover:scale-105 transition  duration-100 delay-75 cursor-pointer inline-flex items-center gap-3 text-lg bg-green  py-2 rounded-full text-white px-6">
+        <a href="mailto:munashemugondaa@gmai.com"  className="group/item mt-5 lg:mt-7  hover:scale-105 transition  duration-100 delay-75 cursor-pointer inline-flex items-center gap-3 text-lg bg-green  py-2 rounded-full text-white px-6">
          Get in touch
         <span className="bg-[#1c3125] p-2 rounded-full group-hover/item:rotate-45 transition duration-100 delay-75">
         <FiArrowUpRight size={23} />
         </span>
-        </Link>
+        </a>
         </div>
 
         {/* faqs section */}

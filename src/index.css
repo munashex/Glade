@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tailwindcss-animated";
 
-
 .font-geist {
     font-family: "Geist", "Geist Placeholder", sans-serif;
   }
@@ -21,5 +20,11 @@
  .text-black {
   color: #1c3125
  }
+
+ /* Add to your global CSS */
+html {
+  scroll-behavior: smooth;
+}
+
 
  

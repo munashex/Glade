@@ -19,17 +19,9 @@ const navlinks = [
     link: "#ourwork"
     }, 
     {
-    name: "Blog", 
-    link: "/blog"
-    }, 
-    {
     name: "FAQs", 
     link: "#faqs"
     }, 
-    {
-    name: "Contact", 
-    link: "/contact"
-    }
 ]
 
 const Navbar = () => {
